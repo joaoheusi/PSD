@@ -1,17 +1,17 @@
 % Programa exemplo para PDS
 
 % O programa executa os seguintes passos:
-% Limpa as varíaveis, figuras e console,
-% Lê o arquivo de entrada
-% Executa o processamento: lê amostra, multiplica por uma constante e escreve no vetor de saída
-% Escreve no arquivo de saída
+% Limpa as varï¿½aveis, figuras e console,
+% Lï¿½ o arquivo de entrada
+% Executa o processamento: lï¿½ amostra, multiplica por uma constante e escreve no vetor de saï¿½da
+% Escreve no arquivo de saï¿½da
 
-% Walter - versão 1.0
+% Walter - versï¿½o 1.0
 clear all;close all;clc;
 
 
 
-% lendo arquivo binário
+% lendo arquivo binï¿½rio
 fid = fopen('alo.pcm', 'rb');
 s = fread(fid, 'int16');
 fclose(fid);
@@ -39,18 +39,16 @@ ganho = .5;
             
     end
     
-  % Plotando a saída
+  % Plotando a saï¿½da
  subplot(2,1,2);
  plot(sav_y, 'r');
- title('Saída');
- xlabel('Número de amostras');
- ylabel('Amplitude da saída');
+ title('Saï¿½da');
+ xlabel('Nï¿½mero de amostras');
+ ylabel('Amplitude da saï¿½da');
  grid on;
  
  % Salvando o arquivo de saida
  fid = fopen('sinal_saida.pcm', 'wb');
 fwrite(fid,sav_y,'int16');
 fclose(fid);
-   
-  
-   
+      
