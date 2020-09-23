@@ -3,6 +3,3 @@ passada com k = 8, obtenha:
 • A saída do filtro para as seguintes entradas:
 impulso unitário, degrau unitário e o vetor
 x[n] = [1, 0.5, 0.25, 0.125] 
-3) Transformada de Fourier Discreta
-• 4) Transformada Z
-• 5) Resposta em frequencia
