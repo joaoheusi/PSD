@@ -4,5 +4,6 @@
         "**/django/**/templates/**/*.html": "django-html",
         "*.txt": "plaintext",
         "*.dat": "c"
-    }
+    },
+    "python.pythonPath": "D:\\Anaconda3\\envs\\psdenv\\python.exe"
 }
